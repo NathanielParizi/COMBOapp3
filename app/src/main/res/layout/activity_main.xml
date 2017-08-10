@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.go.comboapp3.MainActivity">
+
+    <Button
+        android:id="@+id/tipactivity"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/button_name"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="121dp"
+        android:layout_above="@+id/randactivity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="133dp" />
+
+
+    <Button
+        android:id="@+id/randactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="@string/random_font"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/tipactivity"
+        android:layout_alignStart="@+id/tipactivity"
+        android:layout_marginBottom="147dp" />
+
+
+
+
+
+</RelativeLayout>

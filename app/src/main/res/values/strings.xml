@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">COMBOapp3</string>
+    <string name="button_name">Tip Acitivity</string>
+    <string name="random_font">Random Activity</string>
+    <string name="Random_Text">Random Text initial</string>
+    <string name="text"></string>
+    <string name="Random_Input">________</string>
+    <string name="TipCalculator">CALCULATE TIP</string>
+    <string name="TIP_Percentage">0</string>
+    <string name="title_activity_tip">Tip</string>
+    <string name="title_activity_rando">Rando</string>
+</resources>
